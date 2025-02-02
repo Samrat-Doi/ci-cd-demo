@@ -34,3 +34,10 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+          jobs:
+              test:
+                steps:
+                  - name: 23ds1000038@ds.study.iitm.ac.in
+                    run: echo "Hello, world!"
+
